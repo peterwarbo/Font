@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-public protocol DynamicTypeListener {
+@objc public protocol DynamicTypeListener {
     func listenForDynamicTypeChanges()
     func ignoreDynamicTypeChanges()
     func respondToDynamicTypeChanges(notification:NSNotification)
